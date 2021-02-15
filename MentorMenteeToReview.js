@@ -60,19 +60,19 @@
 
       let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 
-  //QUESTION PART ONE
+  //EXERCISE PART ONE
       const storyWords = story.split(' ');
 
-  //QUESTION PART TWO
+  //EXERCISE PART TWO
       //console.log(storyWords.length)
 
-  //Question PART THREE
+  //EXERCISE PART THREE
       const betterWords = storyWords.filter(function(word){
         !unnecessaryWords.includes(word)
         return true;
       })
 
-  //QUESTION PART FOUR
+  //EXERCISE PART FOUR
       //original code I was writing:
       /*const VBO = betterWords.foreach(function(word){
         if (overusedWords.includes(word){
@@ -101,3 +101,4 @@
 
 //NON-EXERCISE RELATED QUESTIONS:
   // Should you do something different than ":sunrise:" each commit?
+  // Discuss Higher Order Functions and Callback Functions in JS because they are hella confusing
