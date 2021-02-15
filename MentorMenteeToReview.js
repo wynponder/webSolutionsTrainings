@@ -1,3 +1,4 @@
+// FEBRUARY 17, 2021
 //QUESTION 0NE:
 /* Why can't I use return variableName.charAt() in the output:
   const secretMessage = animals.map(function(animal){
