@@ -86,3 +86,7 @@ console.log("very count: ", veryCount);
 console.log("basically count: ", basicallyCount);
 
 /*Why does the for loop above not have the expected syntax of normal for loops*/
+
+
+//Unrelated Questions:
+  //Should you do something different than ":sunrise:" each commit?
