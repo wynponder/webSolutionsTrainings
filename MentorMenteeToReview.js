@@ -46,8 +46,17 @@
       console.log(newSum);
 
 
-// QUESTION THREE - MINI-LINTER PROJECT PART FOUR
+// MINI-LINTER PROJECT
+
+    //QUESTION THREE:
     /*Why does the for loop in question part four below not have the normal syntax*/
+
+    //QUESTION FOUR:
+    /* Confirm syntax is correct in Exercise Part Five below as the example output was different, but we got the same answer (I know there are many ways to get the same answer)*/
+
+    //QUESTION FIVE:
+    /* Trying to make the output for Exercise Part Five into a function and save it into a variable called sentenceCount so I can use this in Exercise Part Six but my output gets NaN
+
 
 // LINK TO EXERCISE: 
   /* https://www.codecademy.com/courses/introduction-to-javascript/projects/mini-linter */
@@ -74,7 +83,9 @@
       })
 
   //EXERCISE PART FOUR
-      //original code I was writing:
+
+  //QUESTION THREE CODE:
+      //original code I was writing - not finished - could I use .forEach?
       /*const VBO = betterWords.foreach(function(word){
         if (overusedWords.includes(word){
           VBO ++
@@ -98,6 +109,63 @@
       console.log("very count: ", veryCount);
       console.log("basically count: ", basicallyCount);
 
+  //EXERCISE PART FIVE: 
+    /*INSTRUCTIONS:
+    
+      Now, count how many sentences are in the paragraph.
+      This may seem tricky, but remember that all of the
+      sentences in this paragraph end with a period (.) or an
+      exclamation mark (!). You could iterate over the array and
+      add 1 to a sentence counter variable for each word that
+      has a period or exclamation mark as its final character.
+    */
+
+    //QUESTION FOUR CODE:
+    let exclamationCount=0;
+    let periodCount=0;
+    for (words of storyWords){
+      if (words.includes('!')){
+        exclamationCount+=1;
+      }else if (words.includes('.')){
+        periodCount+=1;
+      }
+    } console.log('Sentence count: ', periodCount + exclamationCount);
+
+
+//EXERCISE PART SIX:
+
+  /* INSTRUCTIONS:
+    Log these items to the console:
+
+    The word count
+    The sentence count
+    The number of times each overused word appears
+    
+    You could choose to simply log them one by one or, for
+    a challenge, create a function that logs all of them
+    with some formatting.
+    */
+
+    //QUESTION FIVE CODE:
+   let exclamationCount=0;
+   let periodCount=0;
+   
+   var sentenceCount = function(exlamationCount, periodCount){
+     if (storyWords.includes('!')){
+       exclamationCount+=1;
+     } else if (storyWords.includes('.')){
+         periodCount+=1;
+       } return (exclamationCount + periodCount);
+     }
+   
+  
+    /*var output = function(storyWords,  ){
+      console.log("Word Count is: ", storyWords);
+      console.log("Sentence count is: ", periodCount + exclamationCount);
+      console.log("Overused word count is: ", "Very Count: ", veryCount, "Basically Count: ", basicallyCount, "Really Count: ", reallyCount);
+    }
+
+    console.log(output);*/
 
 
 //NON-EXERCISE RELATED QUESTIONS:
