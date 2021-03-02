@@ -171,3 +171,18 @@
 //NON-EXERCISE RELATED QUESTIONS:
   // Should you do something different than ":sunrise:" each commit?
   // Discuss Higher Order Functions and Callback Functions in JS because they are hella confusing
+
+
+// MARCH 10, 2021
+
+//Question 1: When to do a console.log in a function and when to do return
+
+//Question 2: module.exports || 
+  /* Do you have to use double quotes when using modules? Got an error on exercise 2 of this link because I did single quotes instead of double quotes.
+  https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports-ii  */
+
+  //Question 3: When using require() function to import a module, do you have to use 'const' to set the variable or can you use 'var' or 'let'?
+    /* Example: 
+        const Airplane = require('./2-airplane.js');
+                        OR
+        var Airplane = require('./2-airplane.js'); */
