@@ -1,27 +1,55 @@
-.sender-column {
-    display: flex;
-    flex-direction: column;
-    text-align: right ;
-    line-height: 1.4;
+.sender {
+    display: grid;
+    line-height: 1.5;
+    grid-template-areas:
+        "s1"
+        "s2"
+        "s3"
+        "s4"
+        "s5"
+        "s6"
+        "s7"
+        "s8";
+    text-align: right;
 }
 
-.recipient-column {
+.s8 {
+    line-height: 4;
+}
+
+/*.recipient {
     display: flex;
     flex-direction: column;
     text-align: left;
     line-height: 1.5;
     margin-bottom:-30px;
+}*/
+
+.recipient {
+    display: grid;
+    line-height: 1.5;
+    grid-template-areas:
+        "r1"
+        "r2"
+        "r3"
+        "r4";
 }
 
 /*Dear Eileen*/
 .greeting {
-    margin-bottom: 5px;
+    margin-bottom: -10px;
 }
 
-h1 {
+.letter-title {
     display: flex;
     font-size: 24px;
     margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size:22px;
 }
 
 p {
@@ -30,12 +58,12 @@ p {
     padding-bottom: 10px;
 }
 
-.starting-dates{
-    margin-top:-15px;
+.starting-dates {
+    margin-top: -15px;
 }
 
 .dates {
-    margin-top:-5px;
+    margin-top: -5px;
     line-height: 1.5;
     margin-bottom: -5px;
 }
@@ -45,7 +73,7 @@ p {
     font-size: 16px;
     text-align: left;
     margin-bottom: 25px;
-    margin-left:0px;
+    margin-left: 0px;
     padding-bottom: 50px;
 }
 
@@ -62,8 +90,8 @@ p {
     margin-bottom: -5px;
 }
 
-.subject-one{
-    padding-bottom:5px;
+.subject-one {
+    padding-bottom: 5px;
 }
 
 .subject-two {
@@ -74,14 +102,53 @@ p {
     padding-top: 5px;
 }
 
-/*abbr {
-    display:inline-flex;
-}*.
+.subjects{
+    margin-top:-15px;
+}
 
-/* a {
-    display:inline-flex;
-}*/
+dl{
+    margin-top:-8px;
+}
 
-body{
-    width: 800px;
+dt{
+    margin-bottom:3px;
+}
+
+dd{
+    margin-bottom:3px;
+}
+
+.dance-text3 {
+    margin-bottom: -1px;
+}
+
+.fifth-paragraph {
+    margin-bottom:-5px;
+    line-height:2;
+}
+
+.closing {
+    display:grid;
+    grid-template-areas:
+        "sign-off"
+        "closing-name"
+        "motto";
+    line-height: 2em;
+    margin-top:3px;
+}
+
+.closing-name {
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom:3px;
+}
+
+.motto {
+    line-height: 2;
+    margin-top: 3px;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
 }
