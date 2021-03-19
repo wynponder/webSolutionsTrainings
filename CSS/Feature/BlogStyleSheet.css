@@ -19,20 +19,35 @@ h2 {
     border-bottom: 20px double rgb(247, 205, 78);
 }
 
-ul {
+.fixed-header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style-type: none;
     margin-left: 30px;
     color: rgb(38, 91, 179);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
 }
 
-li {
-    display: inline;
-    padding: 0px 50px 0px 50px;
-    font-size: 22px;
+.contact-info {
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: rgb(6, 35, 116);
     font-family: 'Roboto', sans-serif;
-    position: relative;
+    font-size: 20px;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+}
+
+span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 /*header {
